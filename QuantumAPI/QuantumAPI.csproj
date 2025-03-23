@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Quantum.Development.Kit" Version="0.18.2106148911" />
+    <PackageReference Include="Microsoft.Quantum.QSharp.Foundation" Version="0.28.302812" />
+    <PackageReference Include="Microsoft.Quantum.Standard" Version="0.28.302812" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuantumApp\QuantumApp.csproj" />
+  </ItemGroup>
+
+</Project>
