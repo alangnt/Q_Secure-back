@@ -10,7 +10,7 @@ namespace QuantumAPI.Controllers
     public class QuantumController : ControllerBase
     {
         [HttpGet]
-        public async Task<long> Get()
+        public async Task<string> Get()
         {
             using var sim = new QuantumSimulator();
             var result = await GetQuantumRandomNumber.Run(sim);

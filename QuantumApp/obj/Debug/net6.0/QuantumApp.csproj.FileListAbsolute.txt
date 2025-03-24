@@ -1,11 +1,11 @@
+C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\bin\Debug\net6.0\QuantumApp.deps.json
+C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\bin\Debug\net6.0\QuantumApp.dll
+C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\bin\Debug\net6.0\QuantumApp.pdb
 C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\obj\Debug\net6.0\QuantumApp.csproj.AssemblyReference.cache
 C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\obj\Debug\net6.0\QuantumApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\obj\Debug\net6.0\QuantumApp.AssemblyInfoInputs.cache
 C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\obj\Debug\net6.0\QuantumApp.AssemblyInfo.cs
 C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\obj\Debug\net6.0\QuantumApp.csproj.CoreCompileInputs.cache
-C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\bin\Debug\net6.0\QuantumApp.deps.json
-C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\bin\Debug\net6.0\QuantumApp.dll
-C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\bin\Debug\net6.0\QuantumApp.pdb
 C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\obj\Debug\net6.0\QuantumApp.dll
 C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\obj\Debug\net6.0\refint\QuantumApp.dll
 C:\Users\alang\WebstormProjects\Q_Secure\QuantumApp\obj\Debug\net6.0\QuantumApp.pdb

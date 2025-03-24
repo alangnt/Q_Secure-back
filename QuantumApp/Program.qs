@@ -6,31 +6,32 @@
     open Microsoft.Quantum.Arrays;
     open Microsoft.Quantum.Diagnostics;
 
-	operation GetQuantumRandomNumber(): Int {
+    operation Main() : String {
+        // Then we need to transform them as encrypted keys
+        let keys = GenerateQuantumKey(256);
+        return keys;
+    }
 
-	    let max = 100;
-	    Message($"Sampling a random number between 0 and {max}: ");
-	    return GenerateRandomNumberInRange(max);
-	}
+    operation GenerateQuantumKey(length : Int) : String {
+        use qubits = Qubit[length];
+        mutable keyBits = [];
 
-	operation GenerateRandomNumberInRange(max: Int) : Int {
-	    mutable bits = [];
-	    let nBits = BitSizeI(max);
-	    for idxBit in 1..nBits {
-	        set bits += [GeneratedRandomBit()];
-	    }
-	    let sample = ResultArrayAsInt(bits);
+        for q in qubits {
+            H(q);
+            let result = M(q);
+            set keyBits += [ResultAsBool(result)];
+			Reset(q);
+        }
 
-	    return sample > max ? GenerateRandomNumberInRange(max) | sample;
-	}
+        mutable bitString = "";
+        for bit in keyBits {
+            set bitString += BoolToString(bit);
+        }
 
-	operation GeneratedRandomBit() : Result {
+        return bitString;
+    }
 
-	    use q = Qubit();
-	    H(q);
-	    let result = M(q);
-	    Reset(q);
-
-	    return result;
-	}
+    function BoolToString(b : Bool) : String {
+        return b ? "1" | "0";
+    }
 }

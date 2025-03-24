@@ -14,17 +14,17 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GetQuantumRandomNumber\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Targeting\",\"Name\":\"RequiresCapability\",\"Range\":{\"Case\":\"Null\"}}]},\"TypeIdRange\":{\"Case\":\"Null\"},\"Argument\":{\"Item1\":{\"Case\":\"ValueTuple\",\"Fields\":[[{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Transparent\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Full\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Inferred automatically by the compiler.\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}}]]},\"Item2\":[],\"Item3\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"String\"},{\"Case\":\"String\"},{\"Case\":\"String\"}]]},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},\"Offset\":{\"Item1\":0,\"Item2\":0},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":1},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":33}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GetQuantumRandomNumber\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":1},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":33}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GenerateRandomNumberInRange\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Targeting\",\"Name\":\"RequiresCapability\",\"Range\":{\"Case\":\"Null\"}}]},\"TypeIdRange\":{\"Case\":\"Null\"},\"Argument\":{\"Item1\":{\"Case\":\"ValueTuple\",\"Fields\":[[{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Transparent\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Full\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Inferred automatically by the compiler.\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}}]]},\"Item2\":[],\"Item3\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"String\"},{\"Case\":\"String\"},{\"Case\":\"String\"}]]},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},\"Offset\":{\"Item1\":0,\"Item2\":0},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":15,\"Item2\":1},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":38}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"max\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":39},\"Item2\":{\"Line\":1,\"Column\":42}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Int\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GenerateRandomNumberInRange\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":15,\"Item2\":1},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":38}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GeneratedRandomBit\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Targeting\",\"Name\":\"RequiresCapability\",\"Range\":{\"Case\":\"Null\"}}]},\"TypeIdRange\":{\"Case\":\"Null\"},\"Argument\":{\"Item1\":{\"Case\":\"ValueTuple\",\"Fields\":[[{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Opaque\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Empty\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Inferred automatically by the compiler.\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}}]]},\"Item2\":[],\"Item3\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"String\"},{\"Case\":\"String\"},{\"Case\":\"String\"}]]},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},\"Offset\":{\"Item1\":0,\"Item2\":0},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":26,\"Item2\":1},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GeneratedRandomBit\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":26,\"Item2\":1},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GetQuantumRandomNumber\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Targeting\",\"Name\":\"RequiresCapability\",\"Range\":{\"Case\":\"Null\"}}]},\"TypeIdRange\":{\"Case\":\"Null\"},\"Argument\":{\"Item1\":{\"Case\":\"ValueTuple\",\"Fields\":[[{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Transparent\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Full\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Inferred automatically by the compiler.\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}}]]},\"Item2\":[],\"Item3\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"String\"},{\"Case\":\"String\"},{\"Case\":\"String\"}]]},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},\"Offset\":{\"Item1\":0,\"Item2\":0},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":33}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"String\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GetQuantumRandomNumber\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":33}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GenerateQuantumKey\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Targeting\",\"Name\":\"RequiresCapability\",\"Range\":{\"Case\":\"Null\"}}]},\"TypeIdRange\":{\"Case\":\"Null\"},\"Argument\":{\"Item1\":{\"Case\":\"ValueTuple\",\"Fields\":[[{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Transparent\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Full\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Inferred automatically by the compiler.\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}}]]},\"Item2\":[],\"Item3\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"String\"},{\"Case\":\"String\"},{\"Case\":\"String\"}]]},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},\"Offset\":{\"Item1\":0,\"Item2\":0},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":12,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"length\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":30},\"Item2\":{\"Line\":1,\"Column\":36}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Int\"},\"ReturnType\":{\"Case\":\"String\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumApp\",\"Name\":\"GenerateQuantumKey\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":12,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Function\"},\"QualifiedName\":{\"Namespace\":\"QuantumApp\",\"Name\":\"BoolToString\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Targeting\",\"Name\":\"RequiresCapability\",\"Range\":{\"Case\":\"Null\"}}]},\"TypeIdRange\":{\"Case\":\"Null\"},\"Argument\":{\"Item1\":{\"Case\":\"ValueTuple\",\"Fields\":[[{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Opaque\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Full\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Inferred automatically by the compiler.\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}}]]},\"Item2\":[],\"Item3\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"String\"},{\"Case\":\"String\"},{\"Case\":\"String\"}]]},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},\"Offset\":{\"Item1\":0,\"Item2\":0},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":31,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b\"]},\"Type\":{\"Case\":\"Bool\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":24}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Bool\"},\"ReturnType\":{\"Case\":\"String\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumApp\",\"Name\":\"BoolToString\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\alang\\\\WebstormProjects\\\\Q_Secure\\\\QuantumApp\\\\Program.qs\",\"Position\":{\"Item1\":31,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
 #line hidden
 namespace QuantumApp
 {
-    [SourceLocation("C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs", OperationFunctor.Body, 9, 16)]
-    public partial class GetQuantumRandomNumber : Operation<QVoid, Int64>, ICallable
+    [SourceLocation("C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs", OperationFunctor.Body, 9, 13)]
+    public partial class GetQuantumRandomNumber : Operation<QVoid, String>, ICallable
     {
         public GetQuantumRandomNumber(IOperationFactory m) : base(m)
         {
@@ -32,123 +32,41 @@ namespace QuantumApp
 
         String ICallable.Name => "GetQuantumRandomNumber";
         String ICallable.FullName => "QuantumApp.GetQuantumRandomNumber";
-        protected ICallable<String, QVoid> Message__
+        protected ICallable<Int64, String> GenerateQuantumKey__
         {
             get;
             set;
         }
 
-        protected ICallable<Int64, Int64> GenerateRandomNumberInRange__
+        public override Func<QVoid, String> __Body__ => (__in__) =>
         {
-            get;
-            set;
-        }
-
-        public override Func<QVoid, Int64> __Body__ => (__in__) =>
-        {
-#line 11 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-            var max = 100L;
-#line 12 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-            Message__.Apply(String.Format("Sampling a random number between 0 and {0}: ", max));
-#line 13 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-            return GenerateRandomNumberInRange__.Apply(max);
+#line 10 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+            return GenerateQuantumKey__.Apply(1000L);
         }
 
         ;
         public override void __Init__()
         {
-            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
-            this.GenerateRandomNumberInRange__ = this.__Factory__.Get<ICallable<Int64, Int64>>(typeof(GenerateRandomNumberInRange));
+            this.GenerateQuantumKey__ = this.__Factory__.Get<ICallable<Int64, String>>(typeof(GenerateQuantumKey));
         }
 
         public override IApplyData __DataIn__(QVoid data) => data;
-        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
-        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__)
+        public override IApplyData __DataOut__(String data) => new QTuple<String>(data);
+        public static System.Threading.Tasks.Task<String> Run(IOperationFactory __m__)
         {
-            return __m__.Run<GetQuantumRandomNumber, QVoid, Int64>(QVoid.Instance);
+            return __m__.Run<GetQuantumRandomNumber, QVoid, String>(QVoid.Instance);
         }
     }
 
-    [SourceLocation("C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs", OperationFunctor.Body, 16, 27)]
-    public partial class GenerateRandomNumberInRange : Operation<Int64, Int64>, ICallable
+    [SourceLocation("C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs", OperationFunctor.Body, 13, 32)]
+    public partial class GenerateQuantumKey : Operation<Int64, String>, ICallable
     {
-        public GenerateRandomNumberInRange(IOperationFactory m) : base(m)
+        public GenerateQuantumKey(IOperationFactory m) : base(m)
         {
         }
 
-        String ICallable.Name => "GenerateRandomNumberInRange";
-        String ICallable.FullName => "QuantumApp.GenerateRandomNumberInRange";
-        protected ICallable<Int64, Int64> Microsoft__Quantum__Math__BitSizeI
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<QVoid, Result> GeneratedRandomBit__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<IQArray<Result>, Int64> Microsoft__Quantum__Convert__ResultArrayAsInt
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<Int64, Int64> self
-        {
-            get;
-            set;
-        }
-
-        public override Func<Int64, Int64> __Body__ => (__in__) =>
-        {
-            var max = __in__;
-#line 17 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-            var bits = new QArray<Result>();
-#line 18 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-            var nBits = Microsoft__Quantum__Math__BitSizeI.Apply(max);
-#line 19 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-            foreach (var idxBit in new QRange(1L, nBits))
-#line hidden
-            {
-#line 20 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-                bits = QArray<Result>.Add(bits, new QArray<Result>(GeneratedRandomBit__.Apply(QVoid.Instance)));
-            }
-
-#line 22 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-            var sample = Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(bits?.Copy());
-#line 24 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-            return ((sample > max) ? self.Apply<Int64>(max) : sample);
-        }
-
-        ;
-        public override void __Init__()
-        {
-            this.Microsoft__Quantum__Math__BitSizeI = this.__Factory__.Get<ICallable<Int64, Int64>>(typeof(global::Microsoft.Quantum.Math.BitSizeI));
-            this.GeneratedRandomBit__ = this.__Factory__.Get<ICallable<QVoid, Result>>(typeof(GeneratedRandomBit));
-            this.Microsoft__Quantum__Convert__ResultArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Result>, Int64>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsInt));
-            this.self = this;
-        }
-
-        public override IApplyData __DataIn__(Int64 data) => new QTuple<Int64>(data);
-        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
-        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, Int64 max)
-        {
-            return __m__.Run<GenerateRandomNumberInRange, Int64, Int64>(max);
-        }
-    }
-
-    [SourceLocation("C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs", OperationFunctor.Body, 27, -1)]
-    public partial class GeneratedRandomBit : Operation<QVoid, Result>, ICallable
-    {
-        public GeneratedRandomBit(IOperationFactory m) : base(m)
-        {
-        }
-
-        String ICallable.Name => "GeneratedRandomBit";
-        String ICallable.FullName => "QuantumApp.GeneratedRandomBit";
+        String ICallable.Name => "GenerateQuantumKey";
+        String ICallable.FullName => "QuantumApp.GenerateQuantumKey";
         protected Allocate Allocate__
         {
             get;
@@ -173,30 +91,63 @@ namespace QuantumApp
             set;
         }
 
+        protected ICallable<Result, Boolean> Microsoft__Quantum__Convert__ResultAsBool
+        {
+            get;
+            set;
+        }
+
         protected ICallable<Qubit, QVoid> Reset__
         {
             get;
             set;
         }
 
-        public override Func<QVoid, Result> __Body__ => (__in__) =>
+        protected ICallable<Boolean, String> BoolToString__
         {
+            get;
+            set;
+        }
+
+        public override Func<Int64, String> __Body__ => (__in__) =>
+        {
+            var length = __in__;
 #line hidden
             {
-#line 29 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-                var q = Allocate__.Apply();
+#line 14 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                var qubits = Allocate__.Apply(length);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 30 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-                    Microsoft__Quantum__Intrinsic__H.Apply(q);
-#line 31 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-                    var result = Microsoft__Quantum__Intrinsic__M.Apply(q);
-#line 32 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-                    Reset__.Apply(q);
-#line 34 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
-                    return result;
+#line 15 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                    var keyBits = new QArray<Boolean>();
+#line 17 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                    foreach (var q in qubits)
+#line hidden
+                    {
+#line 18 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                        Microsoft__Quantum__Intrinsic__H.Apply(q);
+#line 19 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                        var result = Microsoft__Quantum__Intrinsic__M.Apply(q);
+#line 20 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                        keyBits = QArray<Boolean>.Add(keyBits, new QArray<Boolean>(Microsoft__Quantum__Convert__ResultAsBool.Apply(result)));
+#line 21 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                        Reset__.Apply(q);
+                    }
+
+#line 24 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                    var bitString = "";
+#line 25 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                    foreach (var bit in keyBits?.Copy())
+#line hidden
+                    {
+#line 26 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                        bitString = (bitString + BoolToString__.Apply(bit));
+                    }
+
+#line 29 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+                    return bitString;
                 }
 #line hidden
                 catch
@@ -210,7 +161,7 @@ namespace QuantumApp
                     if (__arg1__)
                     {
 #line hidden
-                        Release__.Apply(q);
+                        Release__.Apply(qubits);
                     }
                 }
             }
@@ -223,14 +174,45 @@ namespace QuantumApp
             this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
             this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
             this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
+            this.Microsoft__Quantum__Convert__ResultAsBool = this.__Factory__.Get<ICallable<Result, Boolean>>(typeof(global::Microsoft.Quantum.Convert.ResultAsBool));
             this.Reset__ = this.__Factory__.Get<ICallable<Qubit, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Reset));
+            this.BoolToString__ = this.__Factory__.Get<ICallable<Boolean, String>>(typeof(BoolToString));
         }
 
-        public override IApplyData __DataIn__(QVoid data) => data;
-        public override IApplyData __DataOut__(Result data) => new QTuple<Result>(data);
-        public static System.Threading.Tasks.Task<Result> Run(IOperationFactory __m__)
+        public override IApplyData __DataIn__(Int64 data) => new QTuple<Int64>(data);
+        public override IApplyData __DataOut__(String data) => new QTuple<String>(data);
+        public static System.Threading.Tasks.Task<String> Run(IOperationFactory __m__, Int64 length)
         {
-            return __m__.Run<GeneratedRandomBit, QVoid, Result>(QVoid.Instance);
+            return __m__.Run<GenerateQuantumKey, Int64, String>(length);
+        }
+    }
+
+    [SourceLocation("C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs", OperationFunctor.Body, 32, -1)]
+    public partial class BoolToString : Function<Boolean, String>, ICallable
+    {
+        public BoolToString(IOperationFactory m) : base(m)
+        {
+        }
+
+        String ICallable.Name => "BoolToString";
+        String ICallable.FullName => "QuantumApp.BoolToString";
+        public override Func<Boolean, String> __Body__ => (__in__) =>
+        {
+            var b = __in__;
+#line 33 "C:\\Users\\alang\\WebstormProjects\\Q_Secure\\QuantumApp\\Program.qs"
+            return (b ? "1" : "0");
+        }
+
+        ;
+        public override void __Init__()
+        {
+        }
+
+        public override IApplyData __DataIn__(Boolean data) => new QTuple<Boolean>(data);
+        public override IApplyData __DataOut__(String data) => new QTuple<String>(data);
+        public static System.Threading.Tasks.Task<String> Run(IOperationFactory __m__, Boolean b)
+        {
+            return __m__.Run<BoolToString, Boolean, String>(b);
         }
     }
 }
